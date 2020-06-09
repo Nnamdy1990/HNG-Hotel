@@ -365,12 +365,12 @@ li a:hover {
 }
 /* footer style */
 footer {
+  width: 100%;
   padding: 3em;
   background-color: #191341;
 }
 
 footer h2 {
-  width: 90%;
   color: white;
   margin: auto;
   font-size: 30px;
@@ -426,7 +426,8 @@ footer h2 {
 }
 @media (max-width: 991px) {
   footer {
-    /* text-align: center; */
+    width: 100%;
+    max-width: 100%;
     padding-left: 2em;
   }
   .d-table {
